@@ -16,14 +16,53 @@ The PCB is 150mm X 150mm.
 
 ![A View of the Hexa-Pi Board with 6 Pi CM4's installed](Hexa-Pi_PCB/doc/Hexa-Pi_1.1_TOP-ALL.png)
 
-Also, there is a small "Pi-Panel" board that attaches to the external connectors 
-at the top to provide a few simple peripherals for all of the Modules separately: 
-A Green Activity LED is visible at the top, next to each module's connector.
+A gola of this design is to be as Compute Module independent as possible, to allow
+for a variety of compatible modules to be used.  Several ofthe Compute Module compatible
+boards have been tested:
+
+- ![Raspberry Pi Compute Module 4](https://www.raspberrypi.com/products/compute-module-4)
+  This board basically designed the standard, so everything possible works
+  CM4 boards in the Module5 location may be either "Lite" or with EMMC.
+  CM4 boards in the Module0-4 locations must have EMMC.
+  
+- ![Pine64 SOQuartz](https://pine64.org/documentation/SOQuartz)
+  This RK3566 base board works well. 
+  Rockchip processors for some odd reason must use 1.5Mbps on the serial console.  
+  The pluggable EMMC modules makes setup of these boards very easy if you buy a cheap EMMC-microSD converter.
+
+- ![Banana Pi CM4](https://www.banana-pi.org/en/core-board-and-kit/129.html)
+  This Amlogic A311D based board is a bit faster than the Raspberry Pi CM4.
+  These are a bit fussy to get setup, and OS selection is limited.
+
+- ![Radxa CM5](https://radxa.com/products/cm/cm5)
+  This RK3588 based board is **very** fast, if hat is what you are looking for.
+  Use caution that the extra connector dos not make contact with the Hexa-Pi PCB components.
+  Rockchip processors for some odd reason must use 1.5Mbps on the serial console.  
+  OS selection is also limited here.
+  Due to higher power consumption, a larger heatsink is recommended for the Radxa CM5.
+
+- ![Raspberry Pi Compute Module 5](https://www.raspberrypi.com/products/compute-module-4)
+  **Testing TBD.**
+  Not sure if serial port will work.
+  CM5 fan support is not usable. The I2C fan controller must be used.
+  Due to higher power consumption, a larger heatsink is recommended for the Radxa CM5.
+
+In general, the Raspberry Pi CM4 boards have been most throughly tested.  
+The other boards all have been verified to operate and connect via etherent, but all of the ports have not been tested.
+Where known, incompatibilities have been noted.
+It is recommended to initially configure an unfamiliar board in a Raspberry Pi CM4 IO board,
+or board vendor specific baseboard, where all of the IO ports are available.
+The Module5 location on the Hexa-Pi board may work for this, since it has USB, HDMI, and microSD
+card support - but does not have the 40pin IO connector.
+
+Also, there is a small "Pi-Panel" support board that attaches to the external connectors 
+at the top to provide a few simple peripherals for **all** of the Modules individually. 
+A Green activity LED for each module is visible at the top, next to that module's connector.
 
 There are also a Red power LED, a Yellow USB Overload LED, a White rpibboot mode LED, and a Blue NVME activity LED,
 all on the main PCB, bottom edge as shown here.
 
-Also included is a 3d printable case for the Hexa-Pi board.
+Also included is stl files for a case for the Hexa-Pi board.
 The PCB's were built, and mostly assembled, by JLCPCB.
 The Case was 3d Printed. 
 
