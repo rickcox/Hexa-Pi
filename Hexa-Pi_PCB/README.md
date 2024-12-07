@@ -70,7 +70,7 @@ There should be enough vertical clearance to handle the extra messanine, but **v
 M2.5 CM holdown mounting holes are provided, but should not needed for most cases.
 
 
-Power Consumption TBD
+**Power Consumption TBD**
 
 
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/
