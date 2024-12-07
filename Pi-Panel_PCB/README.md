@@ -1,4 +1,4 @@
-# Hexa-Pi
+# Pi-Panel
 A small "Front Panel" for the compute modules in the Hexa-Pi PCB.
 5 of the modules have mo other peripherals other than ethernet.
 
