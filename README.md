@@ -24,5 +24,10 @@ Also included is a 3d printable case for the Hexa-Pi board.
 The PCB's were built, and mostly assembled, by JLCPCB.
 The Case was 3d Printed. 
 
-There is more information in the sub-directories.
+There is more information in the sub-directories:
 
+- ![Main Hexa-Pi PCB](Hexa-Pi_PCB/README.md)
+- ![Case for Hexa-Pi](Hexa-Pi_Case/README.md)
+- ![Pi-Panel PCB](Pi-Panel_PCB/README.md)
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/
