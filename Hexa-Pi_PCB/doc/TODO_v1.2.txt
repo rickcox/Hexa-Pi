@@ -1,0 +1,43 @@
+Things-To-Do if another version (1.2?):
+
+  - change 5ohm to 470ohm on NeoPixel Data - R75
+
+  - Improve esd protection of emc2301 fan controller.
+    Try esd diodes and series resistors?
+
+  - Move j1-j6 0.3mm closer to top board edge
+    0.2mm cu to board edge since this is routed, not v-scored
+    0.1mm more - reduce size of MP pad
+
+  - Move uSD,J19,J21 closer to bot board edge
+    0.2mm CU to board edge since this edge is routed, not v-scored
+
+  - Move M.2 connr and holes x-=0.5 to improve holddown screw clearance
+
+  - Enlarge pads on usbc Connector - Avoid full soldermask on Top
+    Use footprint Molex_xxxxxx_MOD - has reduced soldermask on front.
+
+  - M.2 Connector - reduce size of thermal gaps - difficult to hand solder!
+    Width to 0.13mm, Length to 0.4mm
+
+  - DNP on I2C pullups - R98, R105. There are already pullups on the CM4.
+    add a DNP pullup on TACH2 signal - near TACH1 pu?
+
+  - Tighten up spacing on switch straps - ~1.0mm to mid, ~0.5mm right.
+
+  - usb and enet switch - adjust thermal vias to minimize solder wicking
+
+  - Consider switching usb switch USB2524 for SL2.1A
+    Simpler, cheaper, bigger!
+
+  - Try to avoid having to use layer In2 for SD_CMD from uSD.
+
+  - Label +12 and GND near 12V fan connectors
+
+  - Eliminate R115 - SD_DET is unused on uSD
+
+  - Update footprint on NeoPixel - silkscreen only to show orientation better
+  
+  - Place (10uf?) 0803 Caps near top power exit point for 5V to stop sags.
+
+  - Include at least 1 USB3 port from Pi5CM - bottom smt connr?
