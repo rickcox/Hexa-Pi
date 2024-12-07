@@ -11,7 +11,7 @@ Bottom view of PCB
 ![Bottom View](doc/Hexa-Pi_1.1_BOT.png)
 
 Dimensions of PCB
-![Dimension View](doc/Hexa-Pi_1.1_DIMENSIONS.pdf)
+![Dimension View](doc/Hexa-Pi_1.1-DIMENSIONS.pdf)
 Note that the PCB is 1.6MM thick.
 
 The PCB is intended to be mounted with the top and bottom edges exposed, since there are used connectors and LEDS there.
