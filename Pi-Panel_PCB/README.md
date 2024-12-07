@@ -29,10 +29,10 @@ The panel provides for each module individually:
   buttons to control it.  Nothing has been developed anything here though, but
   there may be some interesting off-the-shelf options out there.
   The I2C is available on 3 connectors:
-  -1) A QWIIC Connector.
-  -2) A Stemma-QT Style connector.
-  -3) 0.1 inch headers.  Included is a 3.3V supply, which may be useful.
-      Again, remembe the currenti **warning** above.
+  - A QWIIC Connector.
+  - A Stemma-QT Style connector.
+  - 0.1 inch headers.  Included is a 3.3V supply, which may be useful in some use cases.
+    This is LDO'd off of the 5V supply, so remember the current **warning** above.
 
 This was developed in KiCad, and the design files are here.
 The initial PCB's were built by JLCPCB, and partially assembled by them.
