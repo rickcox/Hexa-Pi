@@ -2,7 +2,7 @@
 A small "Front Panel" for the compute modules in the Hexa-Pi PCB.
 5 of the modules have mo other peripherals other than ethernet.
 
-![the Pi-Panel PCB](doc/Pi-Panel_1,1.jpg)
+![the Pi-Panel PCB](doc/Pi-Panel_1.1.jpg)
 
 This is a small 36mm X 50mm PCB based that connects to the main Hexa-Pi board
 using a 10 wire interface with JST connectors.
@@ -43,3 +43,5 @@ directory ==production-pnl== has the 2 instance manufacturing data.
 At JLCPCB, both cost the same. 
 The assembled 2 instance panel costs a bit more due
 to the incremental cost of the parts - but you get 2 for the price of 1!
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/

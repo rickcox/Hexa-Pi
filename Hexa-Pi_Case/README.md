@@ -35,3 +35,6 @@ I dislike the way the long, deeply inset corner screws work.
 They are difficult, and time consuming to assemble and dis-assemble.
 Also the attachment of the front and back panels could be improved.
 I would love some sort of snap on case, but my mechanical CAD skills don't go there yet!
+
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/
