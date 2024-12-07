@@ -52,6 +52,10 @@ boards have been tested:
   CM5 fan support is not usable. The I2C fan controller must be used.
   Due to higher power consumption, a larger heatsink is recommended for the Raspberry Pi CM5.
 
+Not all "compatible" boards have been tested.  
+It is expected, unless the manufacturer has done something specific to make it incompatible, most "compatible" boards should work. 
+Reviewing the datasheet and pinout on the 100 pin mezzanine connectors can be useful in spotting incompatibilities.
+
 The Raspberry Pi CM4 boards have been most throughly tested.  
 The other boards all have been verified to operate and connect via etherent, but all of the ports have not been tested.
 Where known, incompatibilities have been noted.
