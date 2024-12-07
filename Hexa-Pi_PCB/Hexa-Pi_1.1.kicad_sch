@@ -1,0 +1,3139 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a84c9baf-bab8-40d9-8444-d744f447d950")
+	(paper "USLetter")
+	(title_block
+		(title "Hexa-Pi")
+		(date "2024-01/02")
+		(rev "1.0")
+		(company "Coxyz")
+		(comment 1 "fjc")
+	)
+	(lib_symbols
+		(symbol "CM4IO:coxyz"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "coxyz"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "coxyz_0_1"
+				(rectangle
+					(start 1.27 -0.635)
+					(end -1.27 0.635)
+					(stroke
+						(width 0.0005)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 31.75 191.77)
+		(diameter 0.9144)
+		(color 0 0 0 0)
+		(uuid "2f3deced-880d-4075-a81b-95c62da5b94d")
+	)
+	(junction
+		(at 25.4 191.77)
+		(diameter 0.9144)
+		(color 0 0 0 0)
+		(uuid "3cfcbcc7-4f45-46ab-82a8-c414c7972161")
+	)
+	(junction
+		(at 44.45 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81599716-1625-4112-a4aa-5039e0dc5382")
+	)
+	(junction
+		(at 50.8 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17a424e-c9fa-4f6c-9db3-3075d6f8f3bc")
+	)
+	(junction
+		(at 38.1 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87e2c10-ef1d-4a4a-9d55-42b084537a3c")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 74.8123 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0017d13a-7a84-41cb-8706-0de0e7155fd2")
+	)
+	(wire
+		(pts
+			(xy 148.59 151.13) (xy 140.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "08a1a3f1-9b41-440e-870a-01b762055225")
+	)
+	(wire
+		(pts
+			(xy 169.3772 47.74) (xy 180.34 47.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df6afcd-010d-40a5-9548-215939198164")
+	)
+	(wire
+		(pts
+			(xy 19.05 191.77) (xy 25.4 191.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1055556f-7a7c-4e36-89ad-17e2e3ee727d")
+	)
+	(bus
+		(pts
+			(xy 140.97 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231b5726-d223-4a76-ad1f-d69762835364")
+	)
+	(wire
+		(pts
+			(xy 55.88 142.748) (xy 55.88 142.8016)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecdc53a-db5b-4f91-9182-e39f633d2d5e")
+	)
+	(wire
+		(pts
+			(xy 38.1 191.77) (xy 44.45 191.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "42f211d5-f3b7-46cb-8334-d1f87f9349d3")
+	)
+	(wire
+		(pts
+			(xy 205.7688 158.3703) (xy 210.8488 158.3703)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4321b12a-91c6-4db2-8c1a-e4d746a81ae6")
+	)
+	(wire
+		(pts
+			(xy 180.34 47.74) (xy 180.34 47.6141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dd2d6f-8f64-4df4-b1a4-f9d401835348")
+	)
+	(bus
+		(pts
+			(xy 68.58 64.77) (xy 107.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4774689a-9def-4f90-8e86-ecd9b125b8af")
+	)
+	(wire
+		(pts
+			(xy 25.4 191.77) (xy 31.75 191.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5d68e10e-06ea-430e-ae90-8da134564c02")
+	)
+	(wire
+		(pts
+			(xy 31.75 191.77) (xy 38.1 191.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5d68e10e-06ea-430e-ae90-8da134564c03")
+	)
+	(wire
+		(pts
+			(xy 44.45 191.77) (xy 50.8 191.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5d68e10e-06ea-430e-ae90-8da134564c05")
+	)
+	(bus
+		(pts
+			(xy 68.58 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee4bd81-553a-4c63-88af-ef89d3e40f55")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640d3d88-1b3c-4ce6-b5cd-3015b56b9555")
+	)
+	(bus
+		(pts
+			(xy 90.17 158.75) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6766b06b-77d0-44be-a9a0-72cbdd662408")
+	)
+	(wire
+		(pts
+			(xy 199.39 56.7489) (xy 209.486 56.7489)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4b3f97-b901-4098-9dda-e5c06d914984")
+	)
+	(bus
+		(pts
+			(xy 140.97 36.83) (xy 180.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc6b5ab-12b8-42e5-929b-147c0cc07351")
+	)
+	(bus
+		(pts
+			(xy 68.58 35.56) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf58b62-da66-4ea2-8544-8ecc889d148f")
+	)
+	(wire
+		(pts
+			(xy 128.27 163.83) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "70f6b1c0-4c2c-49ef-a8a8-5b7918bd4d16")
+	)
+	(wire
+		(pts
+			(xy 205.7688 153.2903) (xy 210.8488 153.2903)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7102cd56-a2f3-487e-b250-166d224a1f4d")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7141da52-9aa3-416f-b8b3-6d3cebe05ca9")
+	)
+	(bus
+		(pts
+			(xy 68.58 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772b911f-d2a6-49a2-bdda-538d44fb53dd")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7970f3e4-be75-4dd8-bf77-d8c867f571e3")
+	)
+	(wire
+		(pts
+			(xy 56.889 191.77) (xy 56.889 195.7553)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "902db29d-1e81-4826-82a6-4e0b7c93e633")
+	)
+	(wire
+		(pts
+			(xy 199.39 51.8406) (xy 199.39 51.8912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d85be8-9506-4181-994b-5e7400075b8b")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52ebd3d-0c0d-4627-963e-c06710a2e3e9")
+	)
+	(wire
+		(pts
+			(xy 203.2 109.22) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9eb770f-5ba4-407c-b39b-9bc883d9f2d2")
+	)
+	(wire
+		(pts
+			(xy 180.3688 155.8303) (xy 172.7488 155.8303)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae98e21c-1b1d-4166-a6c3-4b915c5ccec6")
+	)
+	(wire
+		(pts
+			(xy 133.35 163.83) (xy 133.35 179.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bd40caab-5bce-4cd8-8608-5eb5ed4af95f")
+	)
+	(wire
+		(pts
+			(xy 199.39 46.99) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cc13c562-eda5-428f-94cb-53915262d572")
+	)
+	(wire
+		(pts
+			(xy 209.3848 51.8406) (xy 199.39 51.8406)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d333151a-50af-45c2-b1c1-ef0c98793f54")
+	)
+	(wire
+		(pts
+			(xy 68.58 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d643c12b-f707-45b3-877b-6fe217166ca7")
+	)
+	(wire
+		(pts
+			(xy 56.889 191.77) (xy 50.8 191.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "da529e65-577e-424f-86cc-4baab0cc5145")
+	)
+	(wire
+		(pts
+			(xy 205.7688 148.2103) (xy 210.8488 148.2103)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e39ff57b-a992-40e4-8429-d2af5b151518")
+	)
+	(wire
+		(pts
+			(xy 45.72 109.22) (xy 55.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ae9c58-2d8c-463f-afdb-b56603a3988e")
+	)
+	(bus
+		(pts
+			(xy 162.56 40.64) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6c0886-84a4-465e-9e55-34d4593c5263")
+	)
+	(wire
+		(pts
+			(xy 45.2128 142.748) (xy 55.88 142.748)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fce801-f4b5-40d8-8eba-8c18d0db73c7")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a2c178-4a51-4e21-9b23-84e5eb784044")
+	)
+	(text "These are the Logo Images"
+		(exclude_from_sim no)
+		(at 17.907 176.403 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec89dd0d-47f9-442a-b92e-623c93e087cc")
+	)
+	(label "+3.3V"
+		(at 209.3848 51.8406 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0600e3cc-6bb8-4f30-9f7e-577b914037cd")
+	)
+	(label "ETH-MGT{MD}"
+		(at 162.56 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ac85f11-dd4e-4b02-82c1-117222977e01")
+	)
+	(label "+1.1V"
+		(at 133.35 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30cf63d8-dfbd-42f0-bde0-f1b8bd3b5910")
+	)
+	(label "+3.3V"
+		(at 210.8488 158.3703 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41462523-1bae-40f5-8713-9c2e4422dd1d")
+	)
+	(label "RST_N"
+		(at 172.7488 155.8303 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45d50dca-edd2-4306-aaf2-e090dc078bda")
+	)
+	(label "+1.1V"
+		(at 210.8488 153.2903 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48f74502-9dd6-4290-a028-79e023280a2d")
+	)
+	(label "+5V_LIM"
+		(at 209.55 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58794c7d-a0c7-468d-9983-cba2341aee11")
+	)
+	(label "RST_N"
+		(at 74.93 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63ea59cc-9b73-4cf9-a4e8-33497b73a1ce")
+	)
+	(label "+12V"
+		(at 45.72 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6775945d-7c2e-41bc-a6bf-d4e46b078167")
+	)
+	(label "EP3{ETH-8}"
+		(at 146.05 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "68b55c17-a01d-43ee-a468-b6a62f3608e7")
+	)
+	(label "EP4{ETH-8}"
+		(at 91.44 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7732b830-d71c-4a21-9401-3c640a311c59")
+	)
+	(label "+12V"
+		(at 45.72 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "813a9a24-a43c-40ec-b315-d4fe9d5ede08")
+	)
+	(label "RST_N"
+		(at 169.3772 47.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91d9f9b0-3c89-4243-9fdf-7340f9aee13f")
+	)
+	(label "EP2{ETH-8}"
+		(at 91.44 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d2e3497-67ae-4417-a58f-dbeab7448174")
+	)
+	(label "RST_N"
+		(at 173.99 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a42481a4-866b-40c6-8808-93761fe5e044")
+	)
+	(label "+12V"
+		(at 45.72 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a972ff38-c756-4253-aca8-4c067794d658")
+	)
+	(label "+12V"
+		(at 209.486 56.7489 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa2a0c4b-dd31-46e5-a8a7-285384496059")
+	)
+	(label "EP5{ETH-8}"
+		(at 91.44 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4538de3-bc7d-4798-bb65-f87c253766cf")
+	)
+	(label "RST_N"
+		(at 74.8123 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4d7278a-2913-4e2b-b6e8-1e91bc0cfc49")
+	)
+	(label "RST_N"
+		(at 148.59 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b894cf6f-d169-4b39-8442-12197781ac09")
+	)
+	(label "+12V"
+		(at 210.8488 148.2103 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9943134-b3c4-4cf3-8163-14ca80dfb0d2")
+	)
+	(label "RST_N"
+		(at 74.93 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcd1b0d3-3eec-4416-a81d-0fb10febdf7e")
+	)
+	(label "RST_N"
+		(at 74.93 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3e69ff2-bab0-488f-b416-9b4e6f0b402d")
+	)
+	(label "ETH-MGT{MD}"
+		(at 90.17 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86b8067-fcd5-4d59-a4f4-4594bde49f02")
+	)
+	(label "EP1{ETH-8}"
+		(at 91.44 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "da0cdc3b-df7a-4ac7-87fd-99defb25457b")
+	)
+	(label "+12V"
+		(at 203.2 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e191076e-b9aa-46e5-b422-4ec28d2f964c")
+	)
+	(label "+3.3V"
+		(at 128.27 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7279005-71d2-429d-ad3c-997fcc05730e")
+	)
+	(label "EP0{ETH-8}"
+		(at 149.86 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2aa8367-c4cd-44b6-8dbe-c0938bf40145")
+	)
+	(label "+12V"
+		(at 45.2128 142.748 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb46655b-f566-44e8-91fa-7d473acc2078")
+	)
+	(symbol
+		(lib_id "CM4IO:coxyz")
+		(at 39.751 178.943 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0ce35417-d281-44a2-a918-ae53173f507e")
+		(property "Reference" "G4"
+			(at 38.2385 180.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "coxyz"
+			(at 37.6035 181.4829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CM4IO:coxyz"
+			(at 39.751 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.751 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.751 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 39.751 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 39.751 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "logo graphics"
+			(at 39.751 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 65.917 195.112 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3d3fde0c-8390-4488-992f-3a935dba90a9")
+		(property "Reference" "H5"
+			(at 63.653 198.5857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole NP"
+			(at 63.5829 188.3957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 65.917 195.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.917 195.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 65.917 195.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN_INITIAL" ""
+			(at 65.917 195.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 65.917 195.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole Non-Plated 2MM"
+			(at 65.917 195.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CM4IO:coxyz")
+		(at 28.067 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "46823bae-0e77-4657-928f-979fe4117561")
+		(property "Reference" "G5"
+			(at 26.5545 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "kicad"
+			(at 25.9195 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:KiCad-Logo2_6mm_SilkScreen"
+			(at 28.067 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.067 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.067 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 28.067 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 28.067 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "logo graphics"
+			(at 28.067 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "G5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 56.889 195.7553 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48aeb57e-5050-4feb-aa2a-5f4155084d60")
+		(property "Reference" "#PWR01"
+			(at 56.889 202.1053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.064 198.9303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.889 195.7553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.889 195.7553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 56.889 195.7553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9990dcb8-1120-4439-9841-a4babbca4aa7")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 19.05 194.31 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4dc58010-5ea6-43a4-bd4e-13ebca1f50ee")
+		(property "Reference" "H1"
+			(at 17.78 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.2mm PCB MountingHole w/ Pad"
+			(at 19.685 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole M3 3.2MM"
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN_INITIAL" ""
+			(at 19.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed215b17-cb5e-42dc-93b3-00973b8ffac8")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 31.75 194.31 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "548528d8-6888-46b2-8108-d2ff3e300427")
+		(property "Reference" "H11"
+			(at 30.48 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole M3 3.2MM"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cc8ebde-a057-4a04-b053-e7b7117f60a4")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CM4IO:coxyz")
+		(at 44.45 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "560e5bdf-4dc2-4c80-b78c-9fe39d3c84e1")
+		(property "Reference" "G2"
+			(at 42.9375 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC-BY-4"
+			(at 40.132 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CM4IO:CC-BY-4"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "logo graphics"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 194.31 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8b2ec62f-02d0-4523-be28-113b9a456ac9")
+		(property "Reference" "H3"
+			(at 43.18 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole M3 3.2MM"
+			(at 44.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d79d6a9-f9c3-426f-953e-687b2144b708")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 71.4593 195.0652 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "96c74f15-7936-45c0-a750-a0b8f19b5d1d")
+		(property "Reference" "H6"
+			(at 69.8396 198.5867 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 74.4853 196.3351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2mm"
+			(at 71.4593 195.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.4593 195.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 71.4593 195.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGN_INITIAL" ""
+			(at 71.4593 195.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 71.4593 195.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole Non-Plated 2MM"
+			(at 71.4593 195.0652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CM4IO:coxyz")
+		(at 33.909 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9be79ec8-8fdd-4e8b-bf1b-d0e1c2a951f0")
+		(property "Reference" "G3"
+			(at 32.3965 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "coxyz"
+			(at 31.7615 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CM4IO:coxyz"
+			(at 33.909 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.909 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.909 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 33.909 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 33.909 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "logo graphics"
+			(at 33.909 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 25.4 194.31 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a08cd091-8d98-4552-bf68-89e9749aee36")
+		(property "Reference" "H2"
+			(at 24.13 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 25.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 25.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 25.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole M3 3.2MM"
+			(at 25.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42a810c-8ee1-4344-9cfa-e3d6a923606d")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b2d1f8d8-bf70-4aa2-8548-12d24e3807c2")
+		(property "Reference" "H4"
+			(at 49.53 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 49.53 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole M3 3.2MM"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "232431ea-c1bd-4b64-bc29-4c643e3d5a65")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CM4IO:coxyz")
+		(at 49.4504 178.9669 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d5f63004-7b42-47ff-8781-ab9b1fb64be6")
+		(property "Reference" "G6"
+			(at 47.9379 180.8718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC-BY-4"
+			(at 45.1324 185.3169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CM4IO:CC-BY-4"
+			(at 49.4504 178.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.4504 178.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.4504 178.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 49.4504 178.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 49.4504 178.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "logo graphics"
+			(at 49.4504 178.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "G6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 38.1 194.31 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "efd16680-4b55-4cda-82d3-d4e798288c48")
+		(property "Reference" "H10"
+			(at 36.83 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 36.83 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" " Mounting Hole M3 3.2MM"
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3d0149-50e7-44ac-995e-5dd7e4ee65e7")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CM4IO:coxyz")
+		(at 22.86 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f1c645d2-87a4-40bc-ac06-9e6a83ae1530")
+		(property "Reference" "G1"
+			(at 21.3475 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "kicad"
+			(at 20.7125 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:KiCad-Logo2_6mm_SilkScreen"
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "DNP"
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "logo graphics"
+			(at 22.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 30.48)
+		(size 33.02 133.35)
+		(stroke
+			(width 0.001)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "4173a302-80db-4d34-b8ed-8b78196a3a5a")
+		(property "Sheetname" "Ethernet Switch"
+			(at 107.95 29.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "enet_sw.kicad_sch"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 128.27 163.83 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2901e12b-5960-4e8b-947c-a0bad0ebe813")
+		)
+		(pin "RST_N" input
+			(at 140.97 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22b7bbf0-c6ca-4910-986f-72842a67f6b9")
+		)
+		(pin "+1.1V" input
+			(at 133.35 163.83 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ba042f8-e712-4a23-a9cb-92b8b006467d")
+		)
+		(pin "EP5{ETH-8}" bidirectional
+			(at 107.95 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb9a3dfe-b91a-4d2f-b6f6-adbcf3364efa")
+		)
+		(pin "EP0{ETH-8}" bidirectional
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "510aea4b-8a52-47aa-a801-a6debc34bc70")
+		)
+		(pin "EP4{ETH-8}" bidirectional
+			(at 107.95 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6a28d55-bf76-4767-bd0b-5619d4d42551")
+		)
+		(pin "EP3{ETH-8}" bidirectional
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2462059-4bd5-4839-a855-028a92821177")
+		)
+		(pin "EP2{ETH-8}" bidirectional
+			(at 107.95 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bff3102-847c-4d5a-ba88-636a0f5290c9")
+		)
+		(pin "EP1{ETH-8}" bidirectional
+			(at 107.95 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "137ca756-e4f6-458c-88f1-365b645bff91")
+		)
+		(pin "ETH-MGT{MD}" input
+			(at 107.95 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33fd715c-2bf7-454c-8001-235a4a1f0437")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 30.48)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42ece8d2-7fed-43f6-b049-fe08e36078c7")
+		(property "Sheetname" "CM_t0"
+			(at 55.88 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tiny-cm.kicad_sch"
+			(at 55.88 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH-8}" bidirectional
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd3ce26e-7b8c-402d-b97e-5ecdb3604c3f")
+		)
+		(pin "+12V" input
+			(at 55.88 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17cf7300-8de7-4ab2-84f6-6e82d422e519")
+		)
+		(pin "RST_N" input
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb7a3ca1-d3e6-49c3-8548-d7434f27ec10")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 59.69)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6341d285-11b7-4982-aa99-e94e3056149a")
+		(property "Sheetname" "CM_t1"
+			(at 55.88 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tiny-cm.kicad_sch"
+			(at 55.88 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH-8}" bidirectional
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6ba18b1-4eea-478c-b7f2-bac503ff3cfe")
+		)
+		(pin "+12V" input
+			(at 55.88 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7414736-698d-456b-bde3-25b5f14045d3")
+		)
+		(pin "RST_N" input
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8631c6a5-2db7-4619-bf99-4fc172b8c4f5")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 124.46)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adb76138-b735-48b3-b4ff-9a0ba494ec01")
+		(property "Sheetname" "CM_t3"
+			(at 55.88 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tiny-cm.kicad_sch"
+			(at 55.88 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH-8}" bidirectional
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6fde77d-9fc0-4a71-ba69-f05075b7d231")
+		)
+		(pin "+12V" input
+			(at 55.88 142.8016 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b97d353f-f2b5-4173-9d88-98b57580f376")
+		)
+		(pin "RST_N" input
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90718455-e47e-49ae-b710-7cd3b75e8fa1")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.3688 140.5903)
+		(size 25.4 22.86)
+		(stroke
+			(width 0.001)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "c105845a-3f37-4169-aed7-7c0c723fed6b")
+		(property "Sheetname" "Power + Reset"
+			(at 180.3688 139.9544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 184.1788 163.4503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V" output
+			(at 205.7688 148.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de67211d-ecd5-4112-919e-4ce76f87fa7d")
+		)
+		(pin "+3.3V" output
+			(at 205.7688 158.3703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47ccb961-7d0f-4b83-961c-284cdad60140")
+		)
+		(pin "+1.1V" output
+			(at 205.7688 153.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e93055f-88de-4677-9c6f-b4dafba3df53")
+		)
+		(pin "RST_N" output
+			(at 180.3688 155.8303 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "482f5da2-cd23-4b69-a5c5-8f0ca6bb9a90")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 91.44)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3b07475-3f3e-415f-a561-9007d76b4e24")
+		(property "Sheetname" "CM_t4"
+			(at 180.34 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tiny-cm.kicad_sch"
+			(at 180.34 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH-8}" bidirectional
+			(at 180.34 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "196a6c8e-2222-4a28-a3e5-a440068404f8")
+		)
+		(pin "+12V" input
+			(at 193.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07612b75-352d-475e-870a-8aa6f1adbfbe")
+		)
+		(pin "RST_N" input
+			(at 180.34 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4cfaf7b0-bdf0-47ad-b584-bb0e23753bd7")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 30.48)
+		(size 19.05 30.48)
+		(stroke
+			(width 0.001)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "e9223227-6795-48e8-b1b4-89eb908db670")
+		(property "Sheetname" "CM_f5"
+			(at 180.34 29.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "full_cm.kicad_sch"
+			(at 181.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V" input
+			(at 199.39 56.7489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d529e509-0768-4db7-806e-a1cfe8f62d6c")
+		)
+		(pin "RST_N" input
+			(at 180.34 47.6141 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04d97f34-902b-480e-9e1f-60e0f77bf3a8")
+		)
+		(pin "+3.3V" input
+			(at 199.39 51.8912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6aea625b-dc4c-4349-9175-0b08992f1f1b")
+		)
+		(pin "ETH{ETH-8}" bidirectional
+			(at 180.34 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3173a01e-db6f-4b53-893e-c9e252790a50")
+		)
+		(pin "+5V_LIM" output
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c671f2e5-4003-4918-82e2-11e810ecd6c0")
+		)
+		(pin "ETH-MGT{MD}" input
+			(at 180.34 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31663f4c-b148-494f-a4a7-1711493a68e3")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 91.44)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2362e9e-495f-49bd-a924-2b3933571654")
+		(property "Sheetname" "CM_t2"
+			(at 55.88 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tiny-cm.kicad_sch"
+			(at 55.88 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH-8}" bidirectional
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "560cd06e-dfec-422b-81b3-39093a7a7558")
+		)
+		(pin "+12V" input
+			(at 55.88 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8547e199-ebed-49e4-b124-7d31c0e03552")
+		)
+		(pin "RST_N" input
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8579e0a-156d-4b6d-89b6-b0a7af2f3521")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

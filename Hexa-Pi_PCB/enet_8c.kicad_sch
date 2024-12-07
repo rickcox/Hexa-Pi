@@ -1,0 +1,2009 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fb97a8c5-d08b-4071-aa5c-cb9bacf33741")
+	(paper "A4")
+	(title_block
+		(title "Hexa-Pi")
+		(date "2024-01/02")
+		(rev "1.0")
+		(company "Coxyz")
+		(comment 1 "fjc")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 149.86 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c7bfb85-d5c1-4177-88c8-a06106cf4eef")
+	)
+	(junction
+		(at 226.06 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e064cb4a-e7bb-491c-870a-ddfed9725cda")
+	)
+	(bus_entry
+		(at 226.06 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0292faa6-2c06-4b13-b6a6-1466cc67e178")
+	)
+	(bus_entry
+		(at 149.86 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060e4d4a-bf0b-45d3-b410-0ca4cf849cbb")
+	)
+	(bus_entry
+		(at 226.06 134.62)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c357711-d076-4970-a2fa-57a28790641c")
+	)
+	(bus_entry
+		(at 149.86 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103d29b4-adcf-43a6-87c1-5bc569a57d1a")
+	)
+	(bus_entry
+		(at 149.86 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194bf233-e508-4fd3-89d0-c014fdb60fd4")
+	)
+	(bus_entry
+		(at 149.86 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5dc1fc-870f-4582-876d-3349f6e587c3")
+	)
+	(bus_entry
+		(at 226.06 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ff7bc6-6157-47b3-8b12-fef5747eb85c")
+	)
+	(bus_entry
+		(at 149.86 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514d5dc1-63da-4cba-965f-6af48404ad51")
+	)
+	(bus_entry
+		(at 226.06 73.66)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645e858c-a67f-446a-829d-1cdf2455708b")
+	)
+	(bus_entry
+		(at 149.86 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8fbdbb-53b0-4c69-ac31-71644350f340")
+	)
+	(bus_entry
+		(at 226.06 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bc5416-94ce-4cb2-a66b-22e5813ec156")
+	)
+	(bus_entry
+		(at 149.86 149.86)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60c08c8-8958-4db8-a361-8d93d6783d4a")
+	)
+	(bus_entry
+		(at 226.06 124.46)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d365c480-323e-4d24-969b-473d4b4b1026")
+	)
+	(bus_entry
+		(at 149.86 143.51)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76ffdd5-da31-4184-b426-207d8122bee8")
+	)
+	(bus_entry
+		(at 149.86 124.46)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea282a9f-3281-481a-8faf-9777d14a606f")
+	)
+	(bus_entry
+		(at 149.86 134.62)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec95438-7e1e-4b9c-add2-8f9351136202")
+	)
+	(bus_entry
+		(at 226.06 63.5)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f224b515-32e3-4f4f-895d-57dec5873d81")
+	)
+	(bus_entry
+		(at 226.06 104.14)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f288c43d-56df-403c-b256-82750499e107")
+	)
+	(bus_entry
+		(at 149.86 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9eb9d2b-63eb-4079-ba49-bdd94b2c3ec5")
+	)
+	(bus
+		(pts
+			(xy 226.06 134.62) (xy 226.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e71ba4-614b-4fcb-9f88-cc4c867082e1")
+	)
+	(bus
+		(pts
+			(xy 226.06 101.6) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03621a5d-d194-45ee-b5d1-a580cf32ad24")
+	)
+	(bus
+		(pts
+			(xy 149.86 101.6) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a93828a-26d1-4dcd-9723-2ef74ee0cf9a")
+	)
+	(bus
+		(pts
+			(xy 149.86 83.82) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa34fcf-5a47-4579-af38-2ef92bd557b5")
+	)
+	(bus
+		(pts
+			(xy 226.06 60.96) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10107e52-486a-4294-b7c6-8258fd4bc2e8")
+	)
+	(bus
+		(pts
+			(xy 149.86 114.3) (xy 149.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d74f5a-1617-46bd-9a47-cc1b07c3c106")
+	)
+	(wire
+		(pts
+			(xy 190.5 137.16) (xy 223.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1382d22f-a392-4b46-8553-276bb66127f8")
+	)
+	(wire
+		(pts
+			(xy 152.4 146.05) (xy 228.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec80460-705d-433d-994b-1389f18f08d1")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb5278e-3883-4b23-9718-dd71fa57da92")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2deb98d9-a4d6-4ab7-888b-479bb85bb963")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb065a9-1d99-4f7b-b258-e0699ad4fb16")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353b6b59-4a83-49c5-aecf-87acafacbbb0")
+	)
+	(bus
+		(pts
+			(xy 149.86 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c920d8-358a-4e7c-b0cb-6d136c41fc20")
+	)
+	(bus
+		(pts
+			(xy 226.06 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bab318-9c11-4db4-ba0c-e559a46b1875")
+	)
+	(bus
+		(pts
+			(xy 226.06 93.98) (xy 226.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472e9478-7fd2-441f-99ea-856fb3995840")
+	)
+	(bus
+		(pts
+			(xy 149.86 73.66) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5226a6-cc4a-43d9-b041-700c377e78f4")
+	)
+	(wire
+		(pts
+			(xy 190.5 106.68) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576db929-814b-4226-838e-4a8d9105d749")
+	)
+	(wire
+		(pts
+			(xy 152.4 158.75) (xy 228.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b99656a-0735-48bf-82a0-5701315db92e")
+	)
+	(bus
+		(pts
+			(xy 149.86 60.96) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666d51a6-ea44-479a-9456-f1c87d38cc73")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707897b1-b559-4eef-a253-b08648d881ca")
+	)
+	(bus
+		(pts
+			(xy 226.06 63.5) (xy 226.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761816be-ac21-4e06-9e19-dd20562e61b8")
+	)
+	(bus
+		(pts
+			(xy 149.86 104.14) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795d46e9-ce77-4b5f-9af8-d42777fdbeac")
+	)
+	(bus
+		(pts
+			(xy 149.86 134.62) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7fc2be-29fa-4a12-87ad-0d984ae09220")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 223.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd52c08-190d-42e9-af92-d4bbaecb21d4")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f73761a-49bf-4d7b-aa97-afc671f05fd3")
+	)
+	(bus
+		(pts
+			(xy 149.86 124.46) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fdb79a-a865-4653-a64f-eb9daa75dd66")
+	)
+	(wire
+		(pts
+			(xy 152.4 137.16) (xy 182.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a373b8-980b-4588-bff5-2d6f52e38cb8")
+	)
+	(bus
+		(pts
+			(xy 226.06 104.14) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc6110c-6179-44ac-aa4b-74e6d14936f3")
+	)
+	(wire
+		(pts
+			(xy 190.5 116.84) (xy 223.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa9c961-6f9a-4424-8cd1-c970751ba46d")
+	)
+	(bus
+		(pts
+			(xy 149.86 156.21) (xy 149.86 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce706fa-f86c-4580-94ae-d236fcd521d2")
+	)
+	(wire
+		(pts
+			(xy 152.4 152.4) (xy 228.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c066f677-e258-4b9c-a3f8-dc6acb771dc5")
+	)
+	(wire
+		(pts
+			(xy 190.5 66.04) (xy 223.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7536401-0652-491f-b75c-576ae4fd4485")
+	)
+	(bus
+		(pts
+			(xy 226.06 124.46) (xy 226.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb349b4a-93df-4e86-8d46-cb259972c9a9")
+	)
+	(bus
+		(pts
+			(xy 149.86 149.86) (xy 149.86 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9fed77-a617-4379-aef5-e76d1a904041")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 223.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bc10c6-979e-489d-b984-fe1f68818e8b")
+	)
+	(bus
+		(pts
+			(xy 149.86 63.5) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0c5146-bc7f-46dc-89b8-6d66e52dbe07")
+	)
+	(bus
+		(pts
+			(xy 226.06 114.3) (xy 226.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce7a997-2450-49f5-9590-d323b75d2d1a")
+	)
+	(bus
+		(pts
+			(xy 226.06 73.66) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5e8312-cff2-44f3-adf8-9b96d6ebb1f6")
+	)
+	(bus
+		(pts
+			(xy 149.86 93.98) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47017c3-5b39-41b6-a9bf-f65d2d574daf")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54bc865-5fa9-4839-9cdb-5204e6a76708")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca84c88-6554-4c37-8680-0e9acb42c2d4")
+	)
+	(bus
+		(pts
+			(xy 149.86 143.51) (xy 149.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d1aea6-1365-4c13-9835-17234c9c4812")
+	)
+	(bus
+		(pts
+			(xy 226.06 83.82) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf57cae-2c30-4c4f-89a3-3969e59c2f7e")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc891520-93ae-4cac-bdab-a077e11ec555")
+	)
+	(text "Poor Man's on board ethernet connection.\nNo transformer, just a cap for DC blocking."
+		(exclude_from_sim no)
+		(at 209.5421 56.3284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00b585ff-2980-456b-b15a-e3c9f1f40e42")
+	)
+	(label "E1.DP"
+		(at 162.56 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "011a257f-e7bc-47af-b50e-d6b015da279c")
+	)
+	(label "E1.AP"
+		(at 162.56 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0219eac9-2521-4041-9c06-799db160ab9d")
+	)
+	(label "E1.CP"
+		(at 162.56 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09a51c82-2427-47da-a2e3-781b58c8235b")
+	)
+	(label "E1.CN"
+		(at 162.56 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "133a7e63-dca8-4d52-8711-795dcebc9513")
+	)
+	(label "E2.CP"
+		(at 213.36 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f5ca64-d5da-48f5-ba12-3b39944d0a09")
+	)
+	(label "E1.L2"
+		(at 156.21 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d987abe-9c50-4ba6-85ef-8268738f7727")
+	)
+	(label "E1.BP"
+		(at 162.56 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25de8ba1-9779-42e7-8bc4-c0291fc2780a")
+	)
+	(label "E2.CN"
+		(at 213.36 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32717fa3-bb82-4c3e-9224-cdb1a17a77a3")
+	)
+	(label "E2.AP"
+		(at 213.36 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50f5ed38-be63-433c-afa1-f7b7fb7c56b3")
+	)
+	(label "E1.L1"
+		(at 156.21 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65671c4c-2652-4a7e-b1c3-ec6d244ff304")
+	)
+	(label "E1.AN"
+		(at 162.56 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77ab583a-8f64-42ec-9b64-ac95215b0832")
+	)
+	(label "E1{ETH-11}"
+		(at 149.86 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dc2cdbd-8780-49ae-8c16-686377a752b9")
+	)
+	(label "E1.DN"
+		(at 162.56 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8631dcaa-2027-4a9a-970a-48ebad0933ed")
+	)
+	(label "E2{ETH-8}"
+		(at 226.06 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "86c7b8df-fbf1-46bf-b45b-96953490cad3")
+	)
+	(label "E2.DN"
+		(at 213.36 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d396954-312c-496d-bae4-4e657789ddfe")
+	)
+	(label "E2.BP"
+		(at 213.36 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8359725-b53f-4b32-bb96-669ecd3f3c4c")
+	)
+	(label "E1.BN"
+		(at 162.56 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c26ba245-e126-40b4-891f-99e7c535fd94")
+	)
+	(label "E2.BN"
+		(at 213.36 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d717bd2c-f632-4b45-b451-fbb3da80f02b")
+	)
+	(label "E1.L0"
+		(at 156.21 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1a19cd0-04ac-467d-ad7a-78f1cb8e1764")
+	)
+	(label "E2.AN"
+		(at 213.36 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f255aad0-5795-44f9-b8ba-47ae649354fa")
+	)
+	(label "E2.DP"
+		(at 213.36 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6068c6d-063a-4682-aaf9-f096a2b9e844")
+	)
+	(hierarchical_label "E2_L1"
+		(shape output)
+		(at 228.6 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "684b1419-b502-4db1-998c-5434140f3d2d")
+	)
+	(hierarchical_label "E2_L0"
+		(shape output)
+		(at 228.6 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da771e95-8825-45cf-9142-5c9b7adba7f3")
+	)
+	(hierarchical_label "E1{ETH-11}"
+		(shape bidirectional)
+		(at 147.32 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "db7353fd-f8c3-43de-864a-c785f97a6481")
+	)
+	(hierarchical_label "E2{ETH-8}"
+		(shape bidirectional)
+		(at 228.6 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f69ffdf4-f651-48b4-8c96-e7f069b5d0ff")
+	)
+	(hierarchical_label "E2_L2"
+		(shape output)
+		(at 228.6 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f77f2eee-a022-4502-bfc0-e00f3701dd02")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47f66a66-4600-46f0-9bdb-d16793705ff2")
+		(property "Reference" "C104"
+			(at 182.9816 94.869 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 94.869 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 95.5548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9eb51b5-9ef3-4cfa-b890-1a9e2e41479f")
+		)
+		(pin "2"
+			(uuid "039062d2-5305-440b-8b53-9fb84bdab37f")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C104")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C84")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53d36a67-8d61-40a7-9798-850a1d5afcc8")
+		(property "Reference" "C106"
+			(at 182.9816 125.349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 125.349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 126.0348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d33c94fd-56c2-47be-ab54-2b7f31108998")
+		)
+		(pin "2"
+			(uuid "d17daaa5-0ce4-4a16-8074-e6226099a44b")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C106")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C59")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73ad9b06-0d95-491f-b828-b83ae4516f9a")
+		(property "Reference" "C103"
+			(at 182.9816 84.709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 84.709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bce680e8-85fa-4ae7-a5e1-455cc9074f85")
+		)
+		(pin "2"
+			(uuid "12124a98-406f-4e63-a92e-13052facdd3a")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C103")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C51")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C87")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C72")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "897fcc55-e620-4235-b2a6-2e3bf69f7d50")
+		(property "Reference" "C107"
+			(at 182.9816 115.189 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 115.189 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 115.8748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b670074-009d-4a3c-9a85-ea5dfabc249b")
+		)
+		(pin "2"
+			(uuid "edf5a65f-f57f-4f76-a5ab-7ed73e3c8bfb")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C107")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96b21e9f-2c76-46c8-aaf6-72ca23ef8d2c")
+		(property "Reference" "C101"
+			(at 182.9816 64.389 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 64.389 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 65.0748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea0318cb-7637-45aa-90da-337d045d9ead")
+		)
+		(pin "2"
+			(uuid "57ab9af8-2908-4e5d-83f2-ff963c4bd4fa")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C101")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C89")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C68")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd7e4e40-8e9a-4050-9821-43f7a855b29e")
+		(property "Reference" "C105"
+			(at 182.9816 105.029 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 105.029 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 105.7148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "418de6cf-d60b-4b3f-ad51-a4ca526c9b3f")
+		)
+		(pin "2"
+			(uuid "763c90e6-d398-47cb-8fa8-decdf28dc0fd")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C105")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d89524f2-8c08-490a-bc26-6e9f33d8e796")
+		(property "Reference" "C102"
+			(at 182.9816 74.549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 74.549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c04f074f-04f4-4dc0-add6-e0fb7a76051b")
+		)
+		(pin "2"
+			(uuid "9d7b0120-aab1-4b7e-ae3a-babc3e13e9a7")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C102")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C88")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C71")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f152f06c-271d-4053-9fd6-9aa0c3f46a6a")
+		(property "Reference" "C108"
+			(at 182.9816 135.509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.183 135.509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.5 136.1948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9362ddd-33d6-4dee-86e7-c4c6ecf51422")
+		)
+		(pin "2"
+			(uuid "281b9471-c1fc-4359-8941-635f840e24bf")
+		)
+		(instances
+			(project "Hexa-Pi_1.1"
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/04f06685-ec0b-41db-ad73-10d473232920"
+					(reference "C108")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/0f2f5c94-5c69-4444-a0cb-6c4e05652150"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/48b6a56f-5b32-44b9-bf0d-0f696e2f6693"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/ba96914a-c900-4ff3-9353-2bf79e207490"
+					(reference "C83")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/c5b4a60e-e28c-409d-8365-a77fc77a8761"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/a84c9baf-bab8-40d9-8444-d744f447d950/4173a302-80db-4d34-b8ed-8b78196a3a5a/e328981f-95c2-4fd3-9b2a-0a74a48cbbb3"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
