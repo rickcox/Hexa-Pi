@@ -34,6 +34,14 @@ The panel provides for each module individually:
   - 0.1 inch headers.  Included is a 3.3V supply, which may be useful in some use cases.
     This is LDO'd off of the 5V supply, so remember the current **warning** above.
 
+Oh, and **one ugly secret!** The 10 pin jst connectors used between the Panel and main Hexa-Pi
+board do not support any type of sequencing (Connect ground before anything else).
+As a result, plugging the Pi-Panel into a running Hexa-Pi **MAY** result in the
+connected Compute Module spontaneously resetting.  Being careful to have the Panel
+grounded before plugging it in seems to minimize this anomaly!  
+If another version of this board is done, this is on the list of things to try and fix, 
+but you need to live with it for now.
+
 This was developed in KiCad, and the design files are here.
 The initial PCB's were built by JLCPCB, and partially assembled by them.
 The through-hole parts and I2C connectors were hand assembled.
@@ -41,8 +49,8 @@ The through-hole parts and I2C connectors were hand assembled.
 This PCB was small enough, that a panel of 2 was actually build.
 Directory **production** has the 1 instance manufacturing data, and
 directory **production-pnl** has the 2 instance manufacturing data.
-At JLCPCB, both cost the same. 
-The assembled 2 instance panel costs a bit more due
-to the incremental cost of the parts - but you get 2 for the price of 1!
+At JLCPCB, both PCB's cost the same. 
+The assembled 2 instance panel costs slightly more due
+to the incremental cost of the parts - but you get 2 boards for the price of 1!
 
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/
