@@ -24,32 +24,32 @@ A goal of this design is to be as Compute Module independent as possible, to all
 for a variety of compatible modules to be used.  Several of the Compute Module compatible
 boards have been tested:
 
-- ![Raspberry Pi Compute Module 4](https://www.raspberrypi.com/products/compute-module-4)
+- ![Raspberry Pi Compute Module 4: ](https://www.raspberrypi.com/products/compute-module-4)
   This board basically designed the standard, so everything possible works
   CM4 boards in the Module5 location may be either "Lite" or with EMMC.
   CM4 boards in the Module0-4 locations must have EMMC.
   
-- ![Pine64 SOQuartz](https://pine64.org/documentation/SOQuartz)
+- ![Pine64 SOQuartz: ](https://pine64.org/documentation/SOQuartz)
   This RK3566 base board works well. 
   Rockchip processors for some odd reason must use 1.5Mbps on the serial console.  
   The pluggable EMMC modules makes setup of these boards very easy if you buy a cheap EMMC-microSD converter.
 
-- ![Banana Pi CM4](https://www.banana-pi.org/en/core-board-and-kit/129.html)
+- ![Banana Pi CM4: ](https://www.banana-pi.org/en/core-board-and-kit/129.html)
   This Amlogic A311D based board is a bit faster than the Raspberry Pi CM4.
   These are a bit fussy to get setup, and OS selection is limited.
 
-- ![Radxa CM5](https://radxa.com/products/cm/cm5)
+- ![Radxa CM5: ](https://radxa.com/products/cm/cm5)
   This RK3588 based board is **very** fast, if that is what you are looking for.
   There are "Lite" and Full versions of this board. Only he Full has been tested, but both should work.
   Use caution that the extra connector does not make contact with the Hexa-Pi PCB components.
-  Rockchip processors use 1.5Mbps on the serial console.  
+  Rockchip processors use 1.5Mbps on the serial console.
   OS selection is also limited here.
   Due to higher power consumption, a larger heatsink is recommended for the Radxa CM5.
 
-- ![Raspberry Pi Compute Module 5](https://www.raspberrypi.com/products/compute-module-4)
+- ![Raspberry Pi Compute Module 5: ](https://www.raspberrypi.com/products/compute-module-4)
   **Testing TBD.**
   Not sure if serial port will work.
-  CM5 fan support is not usable. The I2C fan controller must be used.
+  CM5 fan support is not usable - the I2C fan controller must be used.
   Due to higher power consumption, a larger heatsink is recommended for the Raspberry Pi CM5.
 
 Not all "compatible" boards have been tested.  
