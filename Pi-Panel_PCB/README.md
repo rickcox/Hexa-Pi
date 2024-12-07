@@ -34,6 +34,13 @@ The panel provides for each module individually:
   - 0.1 inch headers.  Included is a 3.3V supply, which may be useful in some use cases.
     This is LDO'd off of the 5V supply, so remember the current **warning** above.
 
+The connection to the main Hexa-Pi board uses a 10 pin JST GH 1.25mm connector.
+Manufacturer partnumber SM10B-GHS-TB.  It is possible to buy pre-assembeled cables
+with this mating connector. They can be purchased with connectors on both ends, or
+having 1 end free.  Look for something like "GH 1.25MM 10P Single Ended" or "Double Ended".  
+There are solderable holes on the Pi-Panel so the "Single Ended" type cable assemblies can be used,
+and hand soldered on the Pi-Panel end.
+
 Oh, and **one ugly secret!** The 10 pin jst connectors used between the Panel and main Hexa-Pi
 board do not support any type of sequencing (Connect ground before anything else).
 As a result, plugging the Pi-Panel into a running Hexa-Pi **MAY** result in the
