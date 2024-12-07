@@ -6,8 +6,12 @@ Raspberry Pi CM4 compatible compute module boards.  It is quite bare-bones
 in terms of peripheral support.  One of the modules - Module 5 - has a basic set of peripherals.
 The other Modules - 0-4 - have only a small external connector for all I/O.
 All 6 modules attach to a 1Gbit ethernet switch IC, which also has 2 off-board connectors.
-The entire board - 6 compute modules, switch, and misc functions are powered off of
-a single 12V barrel Jack. 
+
+It should be emphasized that **Compact Compute Cluster** is the focus of this design, not connectivity.
+Connectivity, and peripheral support, has been reduced to meet the compact compute cluster goal.
+Since all low voltage power, and the ethernet switch are on-board, a cluster of 6 Compute modules
+can be supported with 1 12V DC power jack and 1 ethernet cable.
+In addition, there are 2 external ethernet switch connectors, allowing boards to be "daisy chained".
 
 ![A simple overview](Hexa-Pi_PCB/doc/Hexa-Pi_Summary.png)
 
@@ -16,8 +20,8 @@ The PCB is 150mm X 150mm.
 
 ![A View of the Hexa-Pi Board with 6 Pi CM4's installed](Hexa-Pi_PCB/doc/Hexa-Pi_1.1_TOP-ALL.png)
 
-A gola of this design is to be as Compute Module independent as possible, to allow
-for a variety of compatible modules to be used.  Several ofthe Compute Module compatible
+A goal of this design is to be as Compute Module independent as possible, to allow
+for a variety of compatible modules to be used.  Several of the Compute Module compatible
 boards have been tested:
 
 - ![Raspberry Pi Compute Module 4](https://www.raspberrypi.com/products/compute-module-4)
@@ -35,9 +39,10 @@ boards have been tested:
   These are a bit fussy to get setup, and OS selection is limited.
 
 - ![Radxa CM5](https://radxa.com/products/cm/cm5)
-  This RK3588 based board is **very** fast, if hat is what you are looking for.
-  Use caution that the extra connector dos not make contact with the Hexa-Pi PCB components.
-  Rockchip processors for some odd reason must use 1.5Mbps on the serial console.  
+  This RK3588 based board is **very** fast, if that is what you are looking for.
+  There are "Lite" and Full versions of this board. Only he Full has been tested, but both should work.
+  Use caution that the extra connector does not make contact with the Hexa-Pi PCB components.
+  Rockchip processors use 1.5Mbps on the serial console.  
   OS selection is also limited here.
   Due to higher power consumption, a larger heatsink is recommended for the Radxa CM5.
 
@@ -45,15 +50,16 @@ boards have been tested:
   **Testing TBD.**
   Not sure if serial port will work.
   CM5 fan support is not usable. The I2C fan controller must be used.
-  Due to higher power consumption, a larger heatsink is recommended for the Radxa CM5.
+  Due to higher power consumption, a larger heatsink is recommended for the Raspberry Pi CM5.
 
-In general, the Raspberry Pi CM4 boards have been most throughly tested.  
+The Raspberry Pi CM4 boards have been most throughly tested.  
 The other boards all have been verified to operate and connect via etherent, but all of the ports have not been tested.
 Where known, incompatibilities have been noted.
 It is recommended to initially configure an unfamiliar board in a Raspberry Pi CM4 IO board,
 or board vendor specific baseboard, where all of the IO ports are available.
 The Module5 location on the Hexa-Pi board may work for this, since it has USB, HDMI, and microSD
-card support - but does not have the 40pin IO connector.
+card support - but does not have the 40pin IO connector. 
+Having a GUI is often helpful for the initial setup on a new board - even if it is not necessary for your eventual use.
 
 Also, there is a small "Pi-Panel" support board that attaches to the external connectors 
 at the top to provide a few simple peripherals for **all** of the Modules individually. 
