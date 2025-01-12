@@ -15,7 +15,7 @@ Things-To-Do if another version (1.2?):
   - Move M.2 connr and holes x-=0.5 to improve holddown screw clearance
 
   - Enlarge pads on usbc Connector - Avoid full soldermask on Top
-    Use footprint Molex_xxxxxx_MOD - has reduced soldermask on front.
+    Use footprint Molex_xxxxxx_MOD - has small (>0) soldermask on front.
 
   - M.2 Connector - reduce size of thermal gaps - difficult to hand solder!
     Width to 0.13mm, Length to 0.4mm
@@ -38,6 +38,14 @@ Things-To-Do if another version (1.2?):
 
   - Update footprint on NeoPixel - silkscreen only to show orientation better
   
-  - Place (10uf?) 0803 Caps near top power exit point for 5V to stop sags.
+  - Place (47uF) 0805 Caps near top power exit point for 5V to stop sags.
 
   - Include at least 1 USB3 port from Pi5CM - bottom smt connr?
+
+  - flip pins on J18 iand label - keep power/gnd square/round consistent.
+
+  - Move USB-C connector away from board edge by 1 mm.
+
+  - Move power jack closer to board edge. (0.20 mm ?)
+
+  - A few miscellaneous track/routing cleanups
