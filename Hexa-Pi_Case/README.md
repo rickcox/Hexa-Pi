@@ -1,7 +1,11 @@
 # Hexa-Pi
 A Case for the Hexa-Pi board.
 
-![Better Picture TBD](CadPic.png)
+![CAD Picture](CadPic.png)
+
+Cases Stacked:
+
+![Stacked Picture](2cases.png)
 
 This is a fairly simple case for the Hexa-Pi board.
 It consists of 4 parts:
