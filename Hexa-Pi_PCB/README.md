@@ -15,7 +15,7 @@ Dimensions of PCB
 Note that the PCB is 1.6MM thick.
 
 The PCB is intended to be mounted with the top and bottom edges exposed, since there are used connectors and LEDS there.
-Along the top edge are the 6 External Conectors, and 6 Activity LEDS  - one for each Module.
+Along the top edge are the 6 External Connectors, and 6 Activity LEDS  - one for each Module.
 
 Along the bottom - left to right are:
 - Power in - nominally 12V. This is a standard size 5.5X2.5MM DC Barrel jack - Center positive.
@@ -59,6 +59,7 @@ A soldered or bolted holddown is required at the appropriate location.
 Use **caution** - there is the possibility of interference with 2 of the messanine
 connectors on the top side of some holddowns. Test the clearance before powering on to avoid smoke.
 The M.2 is attached to the PCIe bus on Compute Module 5.
+Any M.2 Key M card which fits should work - at least in hardware.
 
 There are 6 M3 mounting holes - 2 near the center, and 4 at the corners.
 If you use the supplied 3D printed case, the center 2 holes hold the PCB down, and the outer 4 holes
@@ -70,6 +71,7 @@ The Module numbering is consistent between the actual board mounting locations a
 Activity LED/External connectors at the top. (Module 0 -> P0, Module 1 -> P1, etc..)
 Some of the non-Raspberry Pi modules have an extra 3rd messanine connector which is a no-connect, so watch out for interference in this case.  
 There should be enough vertical clearance to handle the extra messanine, but **verify** before powering on.
+
 M2.5 CM holdown mounting holes are provided at each CM's corners, but should not needed for most cases.
 
 
